@@ -1,0 +1,18 @@
+@keyframes dash {
+	to {
+		stroke-dashoffset: 1000;
+	}
+}
+
+.circle-port {
+	width: 15px;
+	height: 15px;
+	margin: 0px;
+	border-radius: 4px;
+	background: darkgray;
+	cursor: pointer;
+}
+
+.circle-port:hover {
+	background: lightskyblue;
+}
